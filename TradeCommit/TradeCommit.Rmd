@@ -17,11 +17,10 @@ output:
 ---
 
 ```{r xaringan-themer, include=FALSE, warning=FALSE}
-library(armcompanion)
 library(xaringanthemer)
 style_solarized_light(
   code_font_family = "Fira Code",
-  text_font_size = "2rem",
+  text_font_size = "1.5rem",
   colors = c(
   red = "#f34213",
   purple = "#3e2f5b",
@@ -131,7 +130,7 @@ Trade networks (integration)
 
 --
 
-$$\Large\begin{equation}
+$$\large\begin{equation}
 		\texttt{Externality} = \texttt{$\sum_{i}^{} \texttt{Strategic goods}_{i} \times \texttt{Integration}_{i}$}		
 \end{equation}$$
 
