@@ -1,13 +1,14 @@
 ---
-title: "Microchips and Sneakers"
-#subtitle: "Bilateral Trade, Shifting Power, and Interstate Conflict"
+title: "Microchips and Sneakers:"
+subtitle: "Bilateral Trade, Shifting Power, and Interstate Conflict<br><br>"
 author: "Yuleng Zeng"
-institute: "University of Salzburg"
-#date: "`r Sys.Date()`"
+institute: "<span style = 'font-size: 70%;'> University of Salzburg | EPSA 2021 </span>"
+#date: "<span style = 'font-size: 70%;'>  EPSA 2021 </span>"
 output: 
   xaringan::moon_reader:
     css: xaringan-themer.css
     nature:
+      titleSlideClass: ["left", "middle", "inverse"]
       ratio: 16:9 #4:3
       highlightStyle: solarized-light
       highlightLines: true
@@ -33,7 +34,7 @@ style_solarized_light(
 ```
 
 
-# Recent US-China conflict  
+# Recent US-China conflict  <br><br>
 <!-- include an image here, if you have a GitHub account use your profile pic! -->
 
 Bilateral trade has expanded over 100 times
@@ -47,7 +48,7 @@ However, security concerns also rise
 
 ---
 
-# Bilateral trade and costly conflict
+# Bilateral trade and costly conflict <br><br>
 
 --
 
@@ -83,7 +84,7 @@ class: center, middle
 
 
 ---
-# Concept of security externality
+# Concept of security externality <br><br>
 
 States' increased abilities to translate trade gains
 into (latent) military power due to the expansion of trade
@@ -91,7 +92,7 @@ into (latent) military power due to the expansion of trade
 
 ---
 
-# Theory
+# Theory <br><br>
 
 --
 
@@ -101,9 +102,13 @@ Peace-promoting when relative externality is at the extremes
 
 Conflict-aggravating when at a mid-range
 
+--
+
+Marginal effects of trade conditional and .blue[inverted U] shape
+
 ---
 
-# Empirics
+# Empirics <br><br>
 
 Sample: .blue[rivalry]
 
@@ -116,7 +121,7 @@ Controls: total trade, power ratio, distance, alliance, democracy, Cold war
 
 ---
 
-# Externality
+# Externality <br><br>
 
 --
 
@@ -171,7 +176,7 @@ magick::image_resize(x,"x80%")
 
 
 ---
-# Conclusion
+# Conclusion <br><br>
 
 
 --
