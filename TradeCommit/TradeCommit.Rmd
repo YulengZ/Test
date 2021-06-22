@@ -4,12 +4,11 @@ title: "Microchips and Sneakers"
 author: "Yuleng Zeng"
 institute: "University of Salzburg"
 #date: "`r Sys.Date()`"
-header-includes:
-   - \usepackage{graphicx}
 output: 
   xaringan::moon_reader:
     css: xaringan-themer.css
     nature:
+      ratio: 16:9 #4:3
       highlightStyle: solarized-light
       highlightLines: true
       countIncrementalSlides: false
@@ -23,7 +22,13 @@ library(xaringanthemer)
 style_solarized_light(
   code_font_family = "Fira Code",
   text_font_size = "2rem",
-  colors = c(blue = "blue"),
+  colors = c(
+  red = "#f34213",
+  purple = "#3e2f5b",
+  orange = "#ff8811",
+  green = "#136f63",
+  white = "#FFFFFF",
+  blue="blue"),
   code_font_url = "https://cdn.jsdelivr.net/gh/tonsky/FiraCode@2/distr/fira_code.css"
 )
 ```
@@ -32,23 +37,13 @@ style_solarized_light(
 # Recent US-China conflict  
 <!-- include an image here, if you have a GitHub account use your profile pic! -->
 
+Bilateral trade has expanded over 100 times
 
+However, security concerns also rise
 
+.pull-left[![](Economist_tradenolongeranchor.png)]
 
-```{r photo1, echo = FALSE}
-knitr::include_graphics("Economist_tradenolongeranchor.png") # update USERNAME here
-```
-
----
-# Recent US-China conflict  
-<!-- include an image here, if you have a GitHub account use your profile pic! -->
-
-
-
-
-```{r photo2, echo = FALSE}
-knitr::include_graphics("NYT_dualuse.png") # update USERNAME here
-```
+.pull-right[![](NYT_dualuse.png)]
 
 
 ---
@@ -136,7 +131,7 @@ Trade networks (integration)
 
 --
 
-$$\scriptsize \begin{equation}
+$$\Large\begin{equation}
 		\texttt{Externality} = \texttt{$\sum_{i}^{} \texttt{Strategic goods}_{i} \times \texttt{Integration}_{i}$}		
 \end{equation}$$
 
@@ -147,8 +142,9 @@ $$\scriptsize \begin{equation}
 
 
 ```{r echo=FALSE, message=FALSE}
-magick::image_read_pdf("externalityplots.pdf",
+x=magick::image_read_pdf("externalityplots.pdf",
                        pages = 1)
+magick::image_resize(x,"x70%")
 ```
 
 
@@ -157,9 +153,10 @@ magick::image_read_pdf("externalityplots.pdf",
 <!-- include an image here, if you have a GitHub account use your profile pic! -->
 
 
-```{r echo=FALSE, message=FALSE}
-magick::image_read_pdf("marginplot.pdf",
+```{r echo=FALSE, fig.height=3, fig.width=5, message=FALSE}
+x=magick::image_read_pdf("marginplot.pdf",
                        pages = 1)
+magick::image_resize(x,"x80%")
 ```
 
 ---
@@ -168,8 +165,9 @@ magick::image_read_pdf("marginplot.pdf",
 
 
 ```{r echo=FALSE, message=FALSE}
-magick::image_read_pdf("midrangeplot.pdf",
+x=magick::image_read_pdf("midrangeplot.pdf",
                        pages = 1)
+magick::image_resize(x,"x80%")
 ```
 
 
